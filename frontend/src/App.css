@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+* {
+  font-family: 'Noto Serif JP', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  margin: 5rem;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.listCon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.list {
+  width: 50%;
+  align-self: center;
+  padding: .5rem;
+  margin: .5rem 1rem;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.list:hover {
+  box-shadow: 1px 1px 1px black;
+}
+
+.img:hover {
+  box-shadow: rgba(1px,1px ,1px ,0.1 );
+  transition: 1px;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blogTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: rgb(255, 165, 0,0.6);
+  width: 59%;
+  align-self: center;
+  text-align: left;
+  padding-left: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.blog p {
+  font-size: 2rem;
+}
+
+#pb {
+  background-color: rgba(173, 216, 240, 0.3);
+  width: 59%;
+  text-align: left;
+  align-self: center;
+  padding-left: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.H {
+  align-self: center;
+}
+
+.data {
+  width: 50%;
+  align-self: center;
+  text-align: left;
+  padding: 2rem;
+  background-color: rgb(176, 200,220, 0.1);
+  width: 59%;
+}
